@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Locadora Universo do Cinema 🎥📽️🎞️</title>
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<!-- Java Script -->
+
+	<script type="text/javascript" src="javascript.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<img style="width: 3%;" src="img/Movies_icon-icons.com_75242.png">
+			<a class="navbar-brand" href="#topo">Locadora Universo do Cinema</a>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+				<li class="nav-item">
+					<a class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button" data-bs-toggle="dropdown"> Filmes por Categoria </a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<li> <a class="dropdown-item" href="#gAcao">Ação					</a>  </li>
+						<li> <a class="dropdown-item" href="#gAnimacao">Animação			</a>  </li>
+						<li> <a class="dropdown-item" href="#gRomance">Romance				</a>  </li>
+						<li> <a class="dropdown-item" href="#gSuspense">Suspense			</a>  </li>
+						<li> <a class="dropdown-item" href="#gTerror">Terror				</a>  </li>
+						<li> <a class="dropdown-item" href="#gFiccao">Ficção Científica		</a>  </li>
+						<li> <a class="dropdown-item" href="#gDrama">Drama					</a>  </li>
+						<li> <a class="dropdown-item" href="#gComedia">Comédia				</a>  </li>
+					</ul>	
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>	
+	</nav>
+
+	<!-- Titulo Locadora -->
+	<h1 class="display-1 text-center mb-5">Locadora Universo do Cinema</h1>
+
+	<div class="container">
+		<table class="table table-striped table-hover">
+			<!-- Linha com títulos das colunas -->
+			<thead>
+				<tr>
+					<th scope="col"> Código </th>
+					<th scope="col"> Título </th>
+					<th scope="col"> Diretor </th>
+					<th scope="col"> Lançamento </th>
+					<th scope="col"> Gênero </th>
+					<th scope="col"> Ator/Atriz Principal </th>
+					<th scope="col"> Nota IMDb </th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gAcao"> Ação </th>
+				</tr>
+				<!-- Primeiro filme -->
+				<tr>
+					<th scope="row">1</th>
+					<td>Príncipe da Pérsia: As Areias do Tempo</td>
+					<td>Mike Newell</td>
+					<td>3 de junho de 2010</td>
+					<td>Ação</td>
+					<td>Jake Gyllenhaal</td>
+					<td>6.6/10</td>
+				</tr>
+				<!-- Segundo filme -->
+				<tr>
+					<th scope="row">2</th>
+					<td>Trem-Bala</td>
+					<td>David Leitch</td>
+					<td>4 de agosto de 2022</td>
+					<td>Ação</td>
+					<td>Brad Pitt</td>
+					<td>7.4/10</td>
+				</tr>
+				<!-- Terceiro filme -->
+				<tr>
+					<th scope="row">3</th>
+					<td>Top Gun: Maverick</td>
+					<td>Joseph Kosinski</td>
+					<td>26 de maio de 2022</td>
+					<td>Ação</td>
+					<td>Tom Cruise</td>
+					<td>8.4/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gAnimacao"> Animação </th>
+				</tr>
+				<!-- Quarto Filme filme -->
+				<tr>
+					<th scope="row">4</th>
+					<td>O Rei Leão</td>
+					<td>Roger Allers , Rob Minkoff</td>
+					<td>8 de julho de 1994</td>
+					<td>Animação</td>
+					<td>Matthew Broderick Simba(voice)</td>
+					<td>8.5/10</td>
+				</tr>
+				<!-- Quinto filme -->
+				<tr>
+					<th scope="row">5</th>
+					<td>Coraline e o Mundo Secreto</td>
+					<td>Henry Selick</td>
+					<td>13 de fevereiro de 2009</td>
+					<td>Animação</td>
+					<td>Dakota Fanning Coraline Jones(voice)</td>
+					<td>7.7/10</td>
+				</tr>
+				<!-- Sexto filme -->
+				<tr>
+					<th scope="row">6</th>
+					<td>Hotel Transilvânia</td>
+					<td>Genndy Tartakovsky</td>
+					<td>5 de outubro de 2012</td>
+					<td>Animação</td>
+					<td>Adam Sandler Dracula(voice)</td>
+					<td>7.0/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gRomance"> Romance </th>
+				</tr>
+				<!-- Sétimo filme -->
+				<tr>
+					<th scope="row">7</th>
+					<td>Uma Linda Mulher</td>
+					<td>Garry Marshall</td>
+					<td>27 de julho de 1990</td>
+					<td>Romance</td>
+					<td>Julia Roberts</td>
+					<td>7.1/10</td>
+				</tr>
+				<!-- Oitavo filme -->
+				<tr>
+					<th scope="row">8</th>
+					<td>Titanic</td>
+					<td>James Cameron</td>
+					<td>16 de janeiro de 1998</td>
+					<td>Romance</td>
+					<td>Leonardo DiCaprio</td>
+					<td>7.9/10</td>
+				</tr>
+				<!-- Nono filme -->
+				<tr>
+					<th scope="row">9</th>
+					<td>Encontro Marcado</td>
+					<td>Martin Brest</td>
+					<td>11 de dezembro de 1998</td>
+					<td>Romance</td>
+					<td>Brad Pitt</td>
+					<td>7.2/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gSuspense"> Suspense </th>
+				</tr>
+				<!-- Décimo filme -->
+				<tr>
+					<th scope="row">10</th>
+					<td>Instinto Selvagem</td>
+					<td>Paul Verhoeven</td>
+					<td>12 de junho de 1992</td>
+					<td>Suspense</td>
+					<td>Sharon Stone</td>
+					<td>7.0/10</td>
+				</tr>
+				<!-- Décimo Primeiro filme -->
+				<tr>
+					<th scope="row">11</th>
+					<td>O Silêncio dos Inocentes</td>
+					<td>Jonathan Demme</td>
+					<td>17 de maio de 1991</td>
+					<td>Suspence</td>
+					<td>Anthony Hopkins</td>
+					<td>8.6/10</td>
+				</tr>
+				<!-- Décimo Segundo filme -->
+				<tr>
+					<th scope="row">12</th>
+					<td>Ilha do Medo</td>
+					<td>Martin Scorsese</td>
+					<td>12 de março de 2010</td>
+					<td>Suspense</td>
+					<td>Leonardo DiCaprio</td>
+					<td>8.2/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gTerror"> Terror </th>
+				</tr>
+				<!-- Décimo Terceiro filme -->
+				<tr>
+					<th scope="row">13</th>
+					<td>Um Lobisomem Americano em Londres</td>
+					<td>John Landis</td>
+					<td>25 de agosto de 1983</td>
+					<td>Terror</td>
+					<td>David Naughton</td>
+					<td>7.5/10</td>
+				</tr>
+				<!-- Décimo Quarto filme -->
+				<tr>
+					<th scope="row">14</th>
+					<td>It: A Coisa</td>
+					<td>Andy Muschietti</td>
+					<td>7 de setembro de 2017</td>
+					<td>Terror</td>
+					<td>Bill Skarsgård</td>
+					<td>7.3/10</td>
+				</tr>
+				<!-- Décimo Quinto filme -->
+				<tr>
+					<th scope="row">15</th>
+					<td>Invocação do Mal</td>
+					<td>James Wan</td>
+					<td>13 de setembro de 2013</td>
+					<td>Terror</td>
+					<td>Vera Farmiga</td>
+					<td>7.5/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gFiccao"> Ficção Científica </th>
+				</tr>
+				<!-- Décimo Sexto filme -->
+				<tr>
+					<th scope="row">16</th>
+					<td>A.I.: Inteligência Artificial</td>
+					<td>Steven Spielberg</td>
+					<td>7 de setembro de 2001</td>
+					<td>Ficção Científica</td>
+					<td>Haley Joel Osment</td>
+					<td>7.2/10</td>
+				</tr>
+				<!-- Décimo Sétimo filme -->
+				<tr>
+					<th scope="row">17</th>
+					<td>Contatos Imediatos do Terceiro Grau</td>
+					<td>Steven Spielberg</td>
+					<td>27 de fevereiro de 1978</td>
+					<td>Ficção Científica</td>
+					<td>Richard Dreyfuss</td>
+					<td>7.6/10</td>
+				</tr>
+				<!-- Décimo Oitavo filme -->
+				<tr>
+					<th scope="row">18</th>
+					<td>E.T.: O Extraterrestre</td>
+					<td>Steven Spielberg</td>
+					<td>25 de dezembro de 1982</td>
+					<td>Ficção Científica</td>
+					<td>Henry Thomas</td>
+					<td>7.9/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gDrama"> Drama </th>
+				</tr>
+				<!-- Décimo Nono filme -->
+				<tr>
+					<th scope="row">19</th>
+					<td>Lado a Lado</td>
+					<td>Chris Columbus</td>
+					<td>25 de dezembro de 1998</td>
+					<td>Drama</td>
+					<td>Julia Roberts</td>
+					<td>6.8/10</td>
+				</tr>
+				<!-- Vigésimo filme -->
+				<tr>
+					<th scope="row">20</th>
+					<td>Em Busca de Uma Nova Chance</td>
+					<td>Shana Feste</td>
+					<td>18 de junho de 2010</td>
+					<td>Drama</td>
+					<td>Susan Sarandon</td>
+					<td>6.6/10</td>
+				</tr>
+				<!-- Vigésimo Primeiro filme -->
+				<tr>
+					<th scope="row">21</th>
+					<td>À Procura da Felicidade</td>
+					<td>Gabriele Muccino</td>
+					<td>2 de fevereiro de 2007</td>
+					<td>Drama</td>
+					<td>Will Smith</td>
+					<td>8.0/10</td>
+				</tr>
+				<!-- Linha expandida com gênero do filme -->
+				<tr>
+					<th class="text-center table-primary" colspan="7" id="#gComedia"> Comédia </th>
+				</tr>
+				<!-- Vigésimo Segundo filme -->
+				<tr>
+					<th scope="row">22</th>
+					<td>As Branquelas</td>
+					<td>Keenen Ivory Wayans</td>
+					<td>27 de agosto de 2004</td>
+					<td>Comédia</td>
+					<td>Marlon Wayans</td>
+					<td>5.7/10</td>
+				</tr>
+				<!-- Vigésimo Terceiro filme -->
+				<tr>
+					<th scope="row">23</th>
+					<td>Norbit, uma Comédia de Peso</td>
+					<td>Brian Robbins</td>
+					<td>9 de fevereiro de 2007</td>
+					<td>Comédia</td>
+					<td>Eddie Murphy</td>
+					<td>4.1/10</td>
+				</tr>
+				<!-- Vigésimo Quarto filme -->
+				<tr>
+					<th scope="row">24</th>
+					<td>Meninas Malvadas</td>
+					<td>Mark Waters</td>
+					<td>9 de julho de 2004</td>
+					<td>Comédia</td>
+					<td>Lindsay Lohan</td>
+					<td>7.1/10</td>
+				</tr>
+				<!-- 24 filmes adicionados -->
+				<tr id="inserirTabela">
+					
+				</tr>
+			</tbody>
+		</table>
+		<!-- Final da tabela -->
+		</div>
+
+		<!-- Divisor de página -->
+		<div class="m-5">
+			<hr class="border-primary border-3 opacity-75">
+		</div>	
+		
+		<h2 class="text-center mb-5">Cadastro de Filmes</h2>
+
+		<div class="container mb-5">
+			<form name="cadastrar" onsubmit="event.preventDefault()">
+			<!-- Linha código e data lançamento -->
+			<div class="row">
+				<!-- código-->
+				<div class="mb-3 col">
+					<label for="codFilme" class="form-label">Código: </label>
+					<input type="text" id="codFilme" class="form-control" name="codigo" required>
+				</div>
+				<!-- data lançamento -->
+				<div class="mb-3 col">
+					<label for="anoFilme" class="form-label">Ano: </label>
+					<input type="text" id="anoFilme" class="form-control" name="data" required>
+				</div>	
+			</div>	
+
+			<!-- linha do título e diretor -->
+			<div class="row">
+				<!-- titulo -->
+				<div class="mb-3 col">
+					<label for="tituloFilme" class="form-label">Título: </label>
+					<input type="text" id="tituloFilme" class="form-control" name="titulo" required>
+			</div>
+				<!-- diretor -->	
+				<div class="mb-3 col">
+					<label for="diretorFilme" class="form-label">Diretor: </label>
+					<input type="text" id="diretorFilme" class="form-control" name="diretor" required>
+				</div>
+			</div>
+
+			<!-- linha do Ator/Atriz Principal e Nota IMDb -->
+			<div class="row">
+				<!-- Ator/Atriz -->
+				<div class="mb-3 col">
+					<label for="atorFilme" class="form-label">Ator/Atriz Principal: </label>
+					<input type="text" id="atorFilme" class="form-control" name="atorPrinc" required>
+			</div>
+			 	<!-- Nota IMDb -->	
+				<div class="mb-3 col">
+					<label for="imdbFilme" class="form-label">Nota IMDb: </label>
+					<input type="text" id="imdbFilme" class="form-control" name="nota" required>
+				</div>
+			</div>
+
+			<!-- linha Gêneros -->
+			<div class="row">
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenAcao" class="form-check-input" value="Ação" required>
+					<label for="radGenAcao" class="form-label">Ação</label>
+				</div>
+				
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenAnim" class="form-check-input" value="Animação" required>
+					<label for="radGenAnim" class="form-label">Animação</label>
+				</div>	
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenRom" class="form-check-input" value="Romance" required>
+					<label for="radGenRom" class="form-label">Romance</label>
+				</div>	
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenSus" class="form-check-input" value="Suspense" required>
+					<label for="radGenSus" class="form-label">Suspense</label>
+				</div>	
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenTer" class="form-check-input" value="Terror" required>
+					<label for="radGenTer" class="form-label">Terror</label>
+				</div>		
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenFic" class="form-check-input" value="Ficção Científica" required>
+					<label for="radGenFic" class="form-label">Ficção Científica</label>	
+				</div>		
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenDra" class="form-check-input" value="Drama" required>
+					<label for="radGenDra" class="form-label">Drama</label>
+				</div>	
+
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radGenCom" class="form-check-input" value="Comédia" required>
+					<label for="radGenCom" class="form-label">Comédia</label>
+				</div>	
+			</div>	
+
+			<!-- Botão Enviar -->
+			<div class="col-auto">
+				<button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+			</div>		
+		</form>	
+		</div>
+		
+
+</body>
+</html>
